@@ -28,7 +28,7 @@ with st.spinner("Retrieving configurations..."):
     endpoint_name = st.sidebar.text_input("SageMaker Endpoint Name:", sm_endpoint)
 
 
-prompt = st.text_area("Input Image description:", """Swimming Chihuahua""")
+prompt = st.text_area("Input Image description:", """Swimming ragdoll bluepoint kittie""")
 
 if st.button("Generate image"):
     if endpoint_name == "" or prompt == "":  # or url == "":
